@@ -3,22 +3,38 @@ body{
     background-color: rgb(244, 146, 146);  
 }
 
-.top-row{
+.container{
     display: flex;
-    justify-content: center;
+    justify-content: start;
     flex-direction: row;
     margin: 10px;
-    flex-wrap: wrap;
+    flex-wrap:wrap;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    align-content: center;
+}
+
+.row-top{
+    display: flex;
+    flex-direction: row;
 }
 
 .small-box{
     background-color: rgb(226, 195, 195);
-    width: 200px;
-    height: 200px;
-}
-
-.bottom-row{
-    background-color: rgb(117, 155, 205); 
     width: 400px;
     height: 400px;
+    margin: 10px;
+}
+
+.row-bottom{
+    display: flex;
+    flex-direction: row;
+}
+
+.big-box{
+    background-color: rgb(201, 177, 239);
+    width: 600px;
+    height: 600px;
+    margin: 10px;
 }
