@@ -3,8 +3,14 @@ body{
     background-color: rgb(244, 146, 146);  
 }
 
-.container{
+.top-row{
     display: flex;
     justify-content: center;
     flex-direction: row;
+}
+
+.small-box{
+    background-color: rgb(226, 195, 195);
+    width: 200px;
+    height: 200px;
 }
