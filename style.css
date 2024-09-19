@@ -7,10 +7,18 @@ body{
     display: flex;
     justify-content: center;
     flex-direction: row;
+    margin: 10px;
+    flex-wrap: wrap;
 }
 
 .small-box{
     background-color: rgb(226, 195, 195);
     width: 200px;
     height: 200px;
+}
+
+.bottom-row{
+    background-color: rgb(117, 155, 205); 
+    width: 400px;
+    height: 400px;
 }
